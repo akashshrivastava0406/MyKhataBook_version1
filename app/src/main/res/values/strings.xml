@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyKhata</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">myShop</string>
+    <string name="nav_header_subtitle">9444444444</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="zero">0</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_khata">Khata</string>
+    <string name="menu_turnover">Turnover</string>
+    <string name="menu_helpers">Helpers</string>
+    <string name="menu_Transactions">Transactions</string>
+</resources>    

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mykhata.assistant.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_khata"
+        android:name="com.mykhata.assistant.ui.khata.KhataFragment"
+        android:label="@string/menu_khata"
+        tools:layout="@layout/fragment_khata" />
+
+    <fragment
+        android:id="@+id/nav_turnover"
+        android:name="com.mykhata.assistant.ui.turnover.TurnoverFragment"
+        android:label="@string/menu_turnover"
+        tools:layout="@layout/fragment_turnover" />
+    <fragment
+        android:id="@+id/nav_helpers"
+        android:name="com.mykhata.assistant.ui.helpers.HelperFragment"
+        android:label="@string/menu_helpers"
+        tools:layout="@layout/fragment_helper" />
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="com.mykhata.assistant.ui.transaction.TransactionFragment"
+        android:label="@string/menu_Transactions"
+        tools:layout="@layout/fragment_transaction" />
+
+</navigation>
